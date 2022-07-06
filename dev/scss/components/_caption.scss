@@ -1,0 +1,77 @@
+.caption{
+    h2{
+        color: #F0145A;
+        
+        padding: 30px 18px;
+
+        @media (min-width:1024px) {
+            // text-align: center;
+            // padding: 30px 0;
+            text-align: left;
+            padding: 30px 150px;
+        }
+
+    }
+
+    &__col {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 -17px 0 -17px;
+    }
+
+    &__cards {
+        width: 100%;
+
+        @media (min-width:768px) {
+            padding: 30px 17px;
+            width: 45%;
+        }
+
+        @media (min-width:1024px) {
+            width: calc(100% / 3);
+        }
+
+
+        .icon-arrow-right{
+                color: #24A3FF;
+                font-size: 30px;
+                border: 1px;
+                padding: 5px;
+                border-radius: 50%;
+                text-align: center;
+                display: flex;
+        }
+
+
+        .text{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        h4 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #323264;
+            margin: 10px 0;
+        }
+
+        .text__title{
+            span {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #B3B3BA;
+            }
+        }
+    }
+}

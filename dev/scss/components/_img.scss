@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-icon-face {
+    font-size: 28px;
+}
+
+.icon-arrow-down {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-50%);
+}

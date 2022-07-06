@@ -1,0 +1,482 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#wrapper {
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+main {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #B3B3BA;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+}
+
+.section__symbol {
+  margin: 0 0 0 400px;
+}
+
+.section__symbol a {
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  left: calc(50% - 42px/2);
+  top: 700px;
+  border-radius: 50px;
+  padding: 4px 7px;
+}
+
+.section__symbol h1 {
+  position: absolute;
+  left: 35%;
+  top: calc(50% - 80px);
+}
+
+.section .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.section .subtitle--title {
+  max-width: 375px;
+  width: 100%;
+  text-align: right;
+}
+
+.section .subtitle--title h2 {
+  padding: 15px 0 0 0;
+}
+
+.section .subtitle .border {
+  border: 1px solid grey;
+  margin: 0 60px;
+}
+
+.section .subtitle--slogan {
+  width: 581px;
+}
+
+.section .subtitle--slogan h3 {
+  padding: 30px 0;
+}
+
+.section .subtitle--slogan p {
+  color: #FFFFFF;
+}
+
+.section .aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .aside p {
+  color: #24A3FF;
+  margin: 0 5px 0 0;
+}
+
+.section .aside__slogan {
+  padding: 0 0 0 55px;
+}
+
+.section__slogan h2 {
+  color: #F0145A;
+}
+
+.section__slogan p {
+  color: #B3B3BA;
+}
+
+.section__slogan span {
+  color: #B3B3BA;
+}
+
+.section__slogan--double {
+  padding: 0 0 0 55px;
+}
+
+.section__slogan--double h2 {
+  color: #F0145A;
+}
+
+.section__slogan--card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 0 -20px;
+}
+
+.section__slogan--card .cards {
+  padding: 20px 20px 20px 0;
+  width: 31%;
+  word-wrap: wrap;
+}
+
+.section__slogan--card .cards img {
+  border: 1px solid white;
+  background: white;
+  border-radius: 24px;
+  padding: 20px;
+}
+
+.section__slogan--border {
+  margin: 50px 0 0;
+  background: white;
+}
+
+.section__slogan--border .border_bottom {
+  background: #CACADB;
+  border-radius: 0px 0px 12px 12px;
+  border: 5px solid #CACADB;
+}
+
+.section__slogan--border .border__bottom {
+  border: 5px solid #E7E7F2;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.section__slogan--aside {
+  background: white;
+}
+
+.section__slogan--content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__slogan__aside {
+  background: #F5F5FA;
+  padding: 30px;
+}
+
+.section__slogan--icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__slogan--icon img {
+  margin: 30px 15px;
+}
+
+.section__slogan--title h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #323264;
+  padding: 25px 0;
+}
+
+.section__slogan--logo {
+  background: white;
+}
+
+.section__slogan__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: ce;
+      -ms-flex-pack: ce;
+          justify-content: ce;
+}
+
+.section__slogan__content img {
+  width: 24%;
+}
+
+.section__slogan--col {
+  background: #F5F5FA;
+}
+
+.section__slogan__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__slogan__cards {
+  margin: 30px;
+  width: 28%;
+}
+
+.section__slogan__cards h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  margin: 10px 0;
+}
+
+.section__slogan__cards span {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B3B3BA;
+}
+
+.section__slogan__cards .border {
+  border: 1px solid #E6E6F0;
+  margin: 10px 0;
+}
+
+.section__slogan__cards p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+#header {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.header {
+  min-height: 116px;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  margin: 20px 0;
+}
+
+.header .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+  padding: 0 400px 0 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .contacts__en {
+  border: 1px solid red;
+  background: #F0145A;
+  border-radius: 8px;
+  padding: 5px 7px;
+}
+
+.header nav {
+  padding: 0 0 0 40px;
+}
+
+.header nav a {
+  margin: 0 5px;
+}
+
+.footer {
+  background: #F5F5FA;
+}
+
+.footer .border {
+  padding: 30px 0 0;
+  border-bottom: 1px solid #E6E6F0;
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.footer--contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contacts_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__contacts_1 p {
+  color: #323264;
+  padding: 60px 10px 60px 60px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer__contacts_1 h4 {
+  margin: 60px 0 60px 10px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__contacts_2 {
+  padding: 60px 60px 30px 0;
+}
+
+.footer__contacts_2 span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer--aside {
+  padding: 0 0 30px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer--aside img {
+  padding: 0 10px 0 0;
+}
+
+.footer--aside p {
+  color: #46466E;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 10px 0 0;
+}
+
+.footer--aside h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=style.css.map */

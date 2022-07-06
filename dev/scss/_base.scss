@@ -1,0 +1,20 @@
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    padding: 0 30px;
+
+    @media (min-width:768px) {
+        margin: 0 auto;
+        max-width: 1440px;
+        width: 100%;
+        padding: 0 60px;
+}
+}
+
+main {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
